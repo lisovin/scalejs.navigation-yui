@@ -1,0 +1,10 @@
+﻿({
+    mainConfigFile: '../bootstrapper.js',
+    include: 'scalejs.navigation-yui',
+    exclude: [
+        'scalejs!core',
+		'scalejs.reactive',
+		'scalejs.linq',
+		'yui'
+    ]
+})
